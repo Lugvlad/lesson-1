@@ -50,3 +50,4 @@ def test_point_segment_class():
     p2 = Point(3, 4)
     assert Segment(p1, p2).length() == 5.0
     assert Segment(p2, p1).length() == 5.0
+ print()
