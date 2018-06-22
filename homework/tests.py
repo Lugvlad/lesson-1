@@ -52,8 +52,7 @@ def test_increment_decorator():
         def length(self):
             return 0
             length = math.hypot(self.p1.x - self.p2.x, self.p1.y - self.p2.y)
-            return lenght
- 
+            return length
     p1 = Point(0, 0)
     p2 = Point(3, 4)
     assert Segment(p1, p2).length() == 5.0
