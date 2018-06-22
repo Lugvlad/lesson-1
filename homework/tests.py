@@ -93,7 +93,7 @@ def test_is_prime():
     """
 
     def is_prime(n):
-        pass
+       
 
     assert is_prime(2)
     assert is_prime(3)
