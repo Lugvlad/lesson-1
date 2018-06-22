@@ -6,9 +6,7 @@ def test_even_fucntion():
      """
  
     def even_filter(*args):
-        pass
-
-	    return[i for i in args if i % 2 == 0]
+        return[i for i in args if i % 2 == 0]
     assert even_filter(1, 2, 3, 4, 5, 6) == [2, 4, 6]
  
  
